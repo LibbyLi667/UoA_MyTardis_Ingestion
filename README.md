@@ -51,11 +51,17 @@ The data ingestion part of the ingestion process takes the prepared metadata dic
 **Minimum metadata requirements:**
 
  - Project Object.
+ 
  ..- 'name': The project name
+ 
  ..- 'description': A short project description
+ 
  ..- 'raid': A unique project identifier, RAiD for UoA project
+ 
  ..- 'lead_researcher': A username for the lead researcher in the project. This user will get admin access at all levels of the project and it's child objects. It should be noted that the UoA version of MyTardis authenticates against Active Directory and the API may need reworking for OAuth authentication.
+ 
  ..- 'schema': A schema name as defined within MyTardis for the Project level schema. This will include the metadata fields and short names associated with them. 
+ 
  ..- Any additional keys in the project dictionary (with a couple of exceptions) will be added as metadata fields. If a match can be found in the schema, then this will be available for indexing for search. If not then the metadata will be added but may not be indexed.
  - Experiment Object.
  - Dataset Object.
