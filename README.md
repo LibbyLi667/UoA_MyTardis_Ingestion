@@ -23,7 +23,6 @@
   * [Built With](#built-with)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
-* [License](#license)
 * [Contact](#contact)
 
 ## About the Project
