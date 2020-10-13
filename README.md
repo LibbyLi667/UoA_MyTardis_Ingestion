@@ -83,3 +83,10 @@ The data ingestion part of the ingestion process takes the prepared metadata dic
    - **schema**: A schema name as defined within MyTardis for the Datafile level schema. This will include the metadata fields and short names associated with them.
    - As with the project any additional keys will be added as metadata fields
    
+### Roadmap
+
+TBD
+
+## Contact
+
+Contact Chris Seal (c.seal@auckland.ac.nz) for more information.
